@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* base styles */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  color: #ffffff;
+  background-color: #1b1b1b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  color: #ffffff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Responsive styles */
+
