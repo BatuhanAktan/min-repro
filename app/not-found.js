@@ -6,8 +6,6 @@ import { headers } from "next/headers";
 export default async function NotFound() {
 
    const pathname = headers().get("my-url");  
-  console.log('404 page')
-  console.log(pathname)
 
   return (
    <> 
