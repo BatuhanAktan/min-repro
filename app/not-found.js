@@ -6,7 +6,7 @@ import { headers } from "next/headers";
 export default async function NotFound() {
 
    const pathname = headers().get("my-url");  
-
+   
   return (
    <> 
     <NavBar/>
